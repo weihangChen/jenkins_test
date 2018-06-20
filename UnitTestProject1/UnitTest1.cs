@@ -8,6 +8,8 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
+            var tmp = new ClassLibrary1.Class1();
+            tmp.Fire();
             Assert.IsTrue(1 == 1);
         }
     }
