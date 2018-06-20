@@ -6,6 +6,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            var tmp = new ClassLibrary1.Class1();
+            tmp.Fire();
             Console.WriteLine("Hello World 3!");
         }
     }
