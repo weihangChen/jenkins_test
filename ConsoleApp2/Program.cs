@@ -8,7 +8,7 @@ namespace ConsoleApp2
         {
             var tmp = new ClassLibrary1.Class1();
             tmp.Fire();
-            Console.WriteLine("Hello World!");
+            Console.   WriteLine("Hello World!");
         }
     }
 }
